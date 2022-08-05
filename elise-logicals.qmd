@@ -1,0 +1,37 @@
+---
+title: "elise-logicals"
+author: "Elise Gonzales"
+format: html
+editor: visual
+---
+
+## Logical expressions
+
+Hey Amrit :)
+
+```{r}
+5 == 1
+
+"cat" == "dog"
+
+meds <- c(1,2,3,4,5)
+meds == 3
+meds == 1 | meds > 3
+
+#store in environment
+teddy <- 5
+banjo <- 7
+tallie <- 4
+
+#call back
+teddy
+banjo
+tallie
+
+#conditions on stored objects
+teddy <= banjo
+
+#stage, commit, pull, push
+
+
+```
